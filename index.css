@@ -424,7 +424,7 @@ body{
 		position: absolute;
 		cursor: pointer;
 		right:5%;
-		top:50%;
+		top:45%;
 		transform: translate(-5%,-50%);
         		
 	}
@@ -447,6 +447,18 @@ body{
         margin-bottom:75px;
         
     }
+    .fa-bars{
+         border: 2px solid #ffffff;
+         padding: 5px;
+         border-radius: 7px;
+    }
+    .fa-bars:hover{
+         background: #ffffff;
+         color: black;
+         padding: 5px;
+         border-radius: 10px;
+    }
+
     
     
 
