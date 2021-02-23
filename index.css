@@ -357,7 +357,7 @@ body{
 }
 
 /*phone users*/
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:767px) {
     body{
         width: 100%;
     }
@@ -395,7 +395,7 @@ body{
 }
     .bio_image{
    
-    margin-right:22.5%;
+    margin-right:22%;
     border-radius: 5px;
    
 }
