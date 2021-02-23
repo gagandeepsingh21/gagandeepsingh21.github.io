@@ -424,22 +424,22 @@ body{
 		position: absolute;
 		cursor: pointer;
 		right:5%;
-		top:35%;
+		top:40%;
 		transform: translate(-5%,-50%);
         		
 	}
     nav .mynav_ul{
-        height: 100vh;
+        height: 90vh;
         width: 100%;
         position: fixed;
-        margin-top: 10px;
+        margin-top: 0;
         right:0;
         left:0;
         z-index:10;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 0.8);
         transform: slide 1ms ease;
         display: none;
     }
