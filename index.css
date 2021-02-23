@@ -429,7 +429,7 @@ body{
         		
 	}
     nav .mynav_ul{
-        height: 100vh;
+        height: 80%;
         width: 100%;
         position: fixed;
         margin-top: 0;
@@ -439,7 +439,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 0, 0.938);
+        background: rgba(0, 0, 0, 0.8);
         transform: slide 1ms ease;
         display: none;
     }
@@ -465,8 +465,8 @@ body{
     nav .mynav_ul .closeMenu{
         display: block;
         position: absolute;
-        top:20px;
-        right: 25px;
+        top:25px;
+        right: 40px;
     }
     nav .Openmenu{
         display: block;
