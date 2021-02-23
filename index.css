@@ -465,8 +465,8 @@ body{
     nav .mynav_ul .closeMenu{
         display: block;
         position: absolute;
-        top:25px;
-        right: 43px;
+        top:15px;
+        right: 35px;
     }
     nav .Openmenu{
         display: block;
