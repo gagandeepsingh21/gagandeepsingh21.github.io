@@ -440,7 +440,7 @@ body{
         justify-content: center;
         align-items: center;
         background: rgba(0, 0, 0, 0.938);
-        transform: slide-in 1ms ease;
+        transform: slide 1ms ease;
         display: none;
     }
     nav .mynav_item{
