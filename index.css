@@ -408,12 +408,7 @@ body{
     margin-bottom: 20px;
     
 }
-.line{
-		width: 30px;
-		height: 3px;
-		background: white;
-		margin: 5px;
-	}
+
 	nav{
 		position: relative;
 	}
@@ -449,14 +444,14 @@ body{
     }
     .fa-bars{
          border: 2px solid #ffffff;
-         padding: 5px;
+         padding: 3px;
          border-radius: 7px;
     }
     .fa-bars:hover{
          background: #ffffff;
          color: rgba(0, 0, 0, 0.8);
-         padding: 5px;
-         border-radius: 10px;
+         padding: 3px;
+         border-radius: 7px;
     }
 
     
