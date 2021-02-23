@@ -10,5 +10,5 @@ function show(){
 
 }
 function close(){
-    Mainmenu.style.top='-106%';
+    Mainmenu.style.top='-110%';
 }
