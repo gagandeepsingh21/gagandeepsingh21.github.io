@@ -461,12 +461,7 @@ body{
     
     
 }
-.line{
-		width: 30px;
-		height: 3px;
-		background: white;
-		margin: 5px;
-	}
+
 	nav{
 		position: relative;
 	}
@@ -477,12 +472,16 @@ body{
 		position: absolute;
 		cursor: pointer;
 		right:5%;
+<<<<<<< HEAD
 		top:45%;
+=======
+		top:40%;
+>>>>>>> 730bf99ae02de7e192a7138ad7bda63b8cc18893
 		transform: translate(-5%,-50%);
         		
 	}
     nav .mynav_ul{
-        height: 100vh;
+        height: 95vh;
         width: 100%;
         position: fixed;
         margin-top: 0;
@@ -492,7 +491,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.8);
         transform: slide 1ms ease;
         display: none;
     }
@@ -502,14 +501,14 @@ body{
     }
     .fa-bars{
          border: 2px solid #ffffff;
-         padding: 5px;
+         padding: 3px;
          border-radius: 7px;
     }
     .fa-bars:hover{
          background: #ffffff;
          color: rgba(0, 0, 0, 0.8);
-         padding: 5px;
-         border-radius: 10px;
+         padding: 3px;
+         border-radius: 7px;
     }
 
     
@@ -518,8 +517,8 @@ body{
     nav .mynav_ul .closeMenu{
         display: block;
         position: absolute;
-        top:25px;
-        right: 40px;
+        top:15px;
+        right: 35px;
     }
     nav .Openmenu{
         display: block;
