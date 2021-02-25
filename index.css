@@ -82,7 +82,7 @@ nav{
     width:33.3%;;
     border-radius: 7px;
     margin-bottom: 20px;
-    
+    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
 }
 .mywork{
     padding: 10px
@@ -206,7 +206,7 @@ nav{
 }
 .footer{
     
-    height: 150px;
+    height: 200px;
     background-color: black;
     color: white;
 }
@@ -217,26 +217,36 @@ nav{
     justify-content: space-around;
     align-items:center;
 }
+.contact{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 .socialitem{
-    padding-top:60px;
+    padding-top: 25px;
     font-size: larger;
     color: white;
 }
  .fa-envelope{
      color: white;
-     font-size: larger;
+     font-size: 50px;
  }
 .fa-twitter-square{
     color: white;
-    font-size: larger;
+    font-size: 50px;
 }
  .fa-facebook{
      color: white;
-     font-size: larger;
+     font-size: 50px;
  }
   .fa-instagram{
      color: white;
-     font-size: larger;
+     font-size: 50px;
  }
   .fa-envelope:hover{
      color: blueviolet;
@@ -309,6 +319,16 @@ nav .mynav_ul .closeMenu {
     border-radius: 5px;
     margin-top: 25px;
 }
+.contact{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 
 }
 /*Tab users*/
@@ -353,6 +373,37 @@ body{
     border-radius: 5px;
     margin-top: 10px;
 }
+.contact{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.socialitem{
+    padding-left: 2px;
+    align-items: left;
+}
+
+.fa-envelope{
+     color: white;
+     font-size: 35px;
+ }
+.fa-twitter-square{
+    color: white;
+    font-size: 35px;
+}
+ .fa-facebook{
+     color: white;
+     font-size: 35px;
+ }
+  .fa-instagram{
+     color: white;
+     font-size: 35px;
+ }
 
 }
 
@@ -406,6 +457,8 @@ body{
     width:80%;;
     border-radius: 7px;
     margin-bottom: 20px;
+    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
+    
     
 }
 .line{
@@ -424,7 +477,7 @@ body{
 		position: absolute;
 		cursor: pointer;
 		right:5%;
-		top:35%;
+		top:45%;
 		transform: translate(-5%,-50%);
         		
 	}
@@ -476,7 +529,16 @@ body{
         display: block;
         padding: 5px;
     }
-   
+   .contact{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 
     .footer{
     
@@ -486,23 +548,24 @@ body{
 }
 .socialitem{
     padding-left: 2px;
+    align-items: left;
 }
 
 .fa-envelope{
      color: white;
-     font-size: larger;
+     font-size: 30px;
  }
 .fa-twitter-square{
     color: white;
-    font-size: larger;
+    font-size: 30px;
 }
  .fa-facebook{
      color: white;
-     font-size: larger;
+     font-size: 30px;
  }
   .fa-instagram{
      color: white;
-     font-size: larger;
+     font-size: 30px;
  }
 }
 
