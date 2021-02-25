@@ -129,8 +129,8 @@ nav{
     top:22%;
     left: 10%;
     margin-left: 15px;
-    
-
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.2));
+    border-radius: 5px;
 }
 .myprojects>h2{
     padding: 5px;
@@ -198,6 +198,8 @@ nav{
     margin-right: 10%;
     border-radius: 5px;
     margin-top: 80px;
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
+    
 }
 .bio_image:hover{
     margin-left: 15%;
@@ -231,6 +233,7 @@ nav{
     padding-top: 25px;
     font-size: larger;
     color: white;
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
 }
  .fa-envelope{
      color: white;
@@ -250,6 +253,7 @@ nav{
  }
   .fa-envelope:hover{
      color: blueviolet;
+     
  }
 .fa-twitter-square:hover{
     color: blueviolet;
