@@ -195,7 +195,8 @@ nav{
 }
 .bio_image:hover{
     margin-left: 15%;
-    animation: shake 0.2s;
+    animation: moveup 0.5s;
+    animation-iteration-count: 1;
     border: 5px solid rgb(98, 212, 64);
 }
 .footer{
