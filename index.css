@@ -227,6 +227,14 @@ nav{
     color: white;
     filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
 }
+.socialitem:hover{
+    padding-top: 25px;
+    font-size: larger;
+    color: white;
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
+     animation: moveup 0.75s;
+    animation-iteration-count: 1;
+}
  .fa-envelope{
      color: white;
      font-size: 45px;
