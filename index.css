@@ -9,9 +9,11 @@ nav{
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     display: flex;
+    
    
   
 }
+
 
 .mynav_ul{
     list-style: none;
@@ -49,8 +51,8 @@ nav{
 }
 
 .topintro{
-    background-color: black;
-    color:white;
+    background-color: White;
+    color:black;
     height: 400px;
 }
 .sectitle_intro{
@@ -62,15 +64,17 @@ nav{
 }
 
 .myskills>h2{
-    text-decoration: underline 4px solid black;
+    text-decoration: underline 4px solid whitesmoke;
     font-weight: bolder;
     font-style: italic;
     
 }
 .myprojects{
-    background-color: blueviolet;
-    
-    height:fit-content
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+   margin: 2%;
+    height:fit-content;
    
 }
 
@@ -82,14 +86,15 @@ nav{
     width:33.3%;;
     border-radius: 7px;
     margin-bottom: 20px;
-    
+    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
 }
 .mywork{
-    padding: 10px
+    padding: 15px
 }
 .workpiece_img:hover{
-
-    border: 5px solid rgb(98, 212, 64);
+     animation: moveup 0.75s;
+    animation-iteration-count: 1;
+    border: 3px solid rgb(98, 212, 64);
 }
 .sectitle_myprojects{
     text-align:center;
@@ -104,22 +109,11 @@ nav{
     text-decoration: underline 3px solid black;
 }
 
-.workpiece_img:hover{
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
-}
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+@keyframes moveup {
+  0% { transform: translateY(10px); }
+  10% { transform: translateY(10px);  }
+
 }
 
 .first_img{
@@ -129,8 +123,8 @@ nav{
     top:22%;
     left: 10%;
     margin-left: 15px;
-    
-
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.2));
+    border-radius: 5px;
 }
 .myprojects>h2{
     padding: 5px;
@@ -146,38 +140,45 @@ nav{
     font-size: xx-large;
 }
 .myskills{
-    
-    background-color: blueviolet;
+    height:fit-content;
+    background-color: black;
+    color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    margin: 2%;
     
 }
 .skill>p{
     padding: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 30px;
 }
 .skill>h3{
     padding: 5px;
     font-size: x-large;
 
 }
-.myskills>a{
-    text-decoration: none;
-    color: aliceblue;
-    padding-top:10px;
-}
-.myskills>a:hover{
+.button{
     text-decoration: underline;
+    color: aliceblue;
+    padding-bottom: 10px;
+    
+ 
+}
+.button:hover{
+    text-decoration: none;
     color:aliceblue;
-    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),rgba(255,255,255,0.3));
+    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.5),rgba(255,255,255,0.6));
     padding: 12px;
     border-radius: 5px;
-    transition: 0.5s ease;
+    transition: 0.5s ease-out;
 }
 .bio{
+    
+    
     height:400px;
-   background-color: black;
-   color:white;
+   background-color: white;
+   color:black;
 
 }
 .sectitle_bio{
@@ -189,6 +190,7 @@ nav{
 
 }
 .bio>p{
+    font-size: 20px;
     margin-left: 25px;
     padding-top:150px;
     float:left;
@@ -198,16 +200,19 @@ nav{
     margin-right: 10%;
     border-radius: 5px;
     margin-top: 80px;
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
+    
 }
 .bio_image:hover{
-    margin-left: 15%;
-    animation: shake 0.2s;
-    border: 5px solid rgb(98, 212, 64);
+
+    animation: moveup 0.25s;
+    animation-iteration-count: 1;
+    border: 2px solid rgb(98, 212, 64);
 }
 .footer{
-    
-    height: 150px;
-    background-color: black;
+    border-radius: 3px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.9);
     color: white;
 }
 .social_links{
@@ -217,29 +222,50 @@ nav{
     justify-content: space-around;
     align-items:center;
 }
+.contact{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 .socialitem{
-    padding-top:60px;
+    padding-top: 25px;
     font-size: larger;
     color: white;
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
+}
+.socialitem:hover{
+    padding-top: 5px;
+    font-size: larger;
+    color: white;
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
+     animation: moveup 0.5s;
+    animation-iteration-count: 1;
 }
  .fa-envelope{
+
      color: white;
-     font-size: larger;
+     font-size: 45px;
  }
 .fa-twitter-square{
     color: white;
-    font-size: larger;
+    font-size: 45px;
 }
  .fa-facebook{
      color: white;
-     font-size: larger;
+     font-size: 45px;
  }
   .fa-instagram{
      color: white;
-     font-size: larger;
+     font-size: 45px;
  }
   .fa-envelope:hover{
      color: blueviolet;
+     
  }
 .fa-twitter-square:hover{
     color: blueviolet;
@@ -299,8 +325,8 @@ nav .mynav_ul .closeMenu {
 }
 .bio{
     height:450px;
-   background-color: black;
-   color:white;
+   background-color: white;
+   color:black;
 
 }
     .bio_image{
@@ -309,6 +335,47 @@ nav .mynav_ul .closeMenu {
     border-radius: 5px;
     margin-top: 25px;
 }
+.contact{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.socialitem{
+    padding-left: 2px;
+    align-items: left;
+}
+
+.fa-envelope{
+     color: white;
+     font-size: 40px;
+ }
+.fa-twitter-square{
+    color: white;
+    font-size: 40px;
+}
+ .fa-facebook{
+     color: white;
+     font-size: 40px;
+ }
+  .fa-instagram{
+     color: white;
+     font-size: 40px;
+ }
 
 }
 /*Tab users*/
@@ -343,8 +410,8 @@ body{
 }
 .bio{
     height:400px;
-   background-color: black;
-   color:white;
+   background-color: white;
+   color:Black;
 
 }
     .bio_image{
@@ -353,11 +420,42 @@ body{
     border-radius: 5px;
     margin-top: 10px;
 }
+.contact{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.socialitem{
+    padding-left: 2px;
+    align-items: left;
+}
+
+.fa-envelope{
+     color: white;
+     font-size: 35px;
+ }
+.fa-twitter-square{
+    color: white;
+    font-size: 35px;
+}
+ .fa-facebook{
+     color: white;
+     font-size: 35px;
+ }
+  .fa-instagram{
+     color: white;
+     font-size: 35px;
+ }
 
 }
 
 /*phone users*/
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:767px) {
     body{
         width: 100%;
     }
@@ -365,9 +463,9 @@ body{
         right:10%;
         left: 8%;
         margin-right: 15px;
-        font-size:large;
+        font-size:26px;
         position: absolute;
-        top:330px;
+        top:320px;
         text-align: justify;
         padding-top: 30px;
     } 
@@ -389,13 +487,13 @@ body{
 }
 .bio{
     height:400px;
-   background-color: black;
-   color:white;
+   background-color: white;
+   color:black;
 
 }
     .bio_image{
    
-    margin-right:22.5%;
+    margin-right:20%;
     border-radius: 5px;
    
 }
@@ -406,6 +504,8 @@ body{
     width:80%;;
     border-radius: 7px;
     margin-bottom: 20px;
+    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
+    
     
 }
 .line{
@@ -424,7 +524,7 @@ body{
 		position: absolute;
 		cursor: pointer;
 		right:5%;
-		top:50%;
+		top:45%;
 		transform: translate(-5%,-50%);
         		
 	}
@@ -439,22 +539,34 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(0, 0, 0, 0.938);
-        transform: slide-in 1ms ease;
+        background: rgba(0, 0, 0, 0.8);
+        transform: slide 1ms ease;
         display: none;
     }
     nav .mynav_item{
         margin-bottom:75px;
         
     }
+    .fa-bars{
+         border: 2px solid #ffffff;
+         padding: 5px;
+         border-radius: 7px;
+    }
+    .fa-bars:hover{
+         background: #ffffff;
+         color: rgba(0, 0, 0, 0.8);
+         padding: 5px;
+         border-radius: 10px;
+    }
+
     
     
 
     nav .mynav_ul .closeMenu{
         display: block;
         position: absolute;
-        top:20px;
-        right: 25px;
+        top:25px;
+        right: 40px;
     }
     nav .Openmenu{
         display: block;
@@ -464,38 +576,42 @@ body{
         display: block;
         padding: 5px;
     }
-   
+   .contact{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 
     .footer{
     
     height: 150px;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
     color: white;
 }
 .socialitem{
-    padding-left: 3px;
+    padding-left: 2px;
+    align-items: left;
 }
 
 .fa-envelope{
      color: white;
-     font-size: larger;
+     font-size: 30px;
  }
 .fa-twitter-square{
     color: white;
-    font-size: larger;
+    font-size: 30px;
 }
  .fa-facebook{
      color: white;
-     font-size: larger;
+     font-size: 30px;
  }
   .fa-instagram{
      color: white;
-     font-size: larger;
+     font-size: 30px;
  }
 }
-
-
-    
-
-
-
