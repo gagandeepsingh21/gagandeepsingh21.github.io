@@ -69,14 +69,7 @@ nav{
     font-style: italic;
     
 }
-.myprojects{
-    background-color: black;
-    color:white;
-    border-radius: 8px;
-   margin: 2%;
-    height:fit-content;
-   
-}
+
 
 .workpiece_img{
 
@@ -86,7 +79,7 @@ nav{
     width:33.3%;;
     border-radius: 7px;
     margin-bottom: 20px;
-    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.4));
 }
 .mywork{
     padding: 15px
@@ -123,8 +116,16 @@ nav{
     top:22%;
     left: 10%;
     margin-left: 15px;
-    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.2));
+    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
     border-radius: 5px;
+}
+.myprojects{
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+    margin: 4%;
+    height:fit-content;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
 }
 .myprojects>h2{
     padding: 5px;
@@ -146,7 +147,8 @@ nav{
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    margin: 2%;
+    margin: 4%;
+    filter: drop-shadow(10px 15px 15px rgba(0, 0, 0, 0.6));
     
 }
 .skill>p{
@@ -200,7 +202,7 @@ nav{
     margin-right: 10%;
     border-radius: 5px;
     margin-top: 80px;
-    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
+    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
     
 }
 .bio_image:hover{
@@ -504,7 +506,7 @@ body{
     width:80%;;
     border-radius: 7px;
     margin-bottom: 20px;
-    filter:drop-shadow(10px 10px 10px rgba(0,0,0,0.8));
+    filter:drop-shadow(10px 10px 10px rgba(255,255,255,0.3));
     
     
 }
@@ -548,12 +550,12 @@ body{
         
     }
     .fa-bars{
-         border: 2px solid #ffffff;
+         border: 2px solid white;
          padding: 5px;
          border-radius: 7px;
     }
     .fa-bars:hover{
-         background: #ffffff;
+         background: white;
          color: rgba(0, 0, 0, 0.8);
          padding: 5px;
          border-radius: 10px;
