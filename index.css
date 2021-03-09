@@ -72,7 +72,8 @@ nav{
     
 }
 .myprojects{
-    background-color: blueviolet;
+    background-color: black;
+    color:white;
     border-radius: 8px;
     
     height:fit-content
@@ -142,7 +143,8 @@ nav{
 }
 .myskills{
     
-    background-color: blueviolet;
+    background-color: black;
+    color: white;
     padding: 20px;
     text-align: center;
     
@@ -157,17 +159,18 @@ nav{
 
 }
 .myskills>a{
-    text-decoration: none;
+    text-decoration: underline;
     color: aliceblue;
-    padding-top:10px;
+    padding-top:20px;
 }
 .myskills>a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color:aliceblue;
-    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.3),rgba(255,255,255,0.3));
+   
+    background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.5),rgba(255,255,255,0.6));
     padding: 12px;
     border-radius: 5px;
-    transition: 0.5s ease;
+    transition: 0.5s ease-out;
 }
 .bio{
     
@@ -208,7 +211,7 @@ nav{
 .footer{
     border-radius: 3px;
     height: 200px;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.9);
     color: white;
 }
 .social_links{
