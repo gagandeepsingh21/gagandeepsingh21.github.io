@@ -7,8 +7,9 @@ closemenu.addEventListener('click',close);
 function show(){
     Mainmenu.style.display ='flex';
     Mainmenu.style.top='0';
+    
 
 }
 function close(){
-    Mainmenu.style.top='-100%';
+    Mainmenu.style.top='-110%';
 }

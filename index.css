@@ -62,7 +62,9 @@ nav{
     z-index: 1;
     font-size: x-large;
 }
-
+.myskills{
+    border-radius: 10px;
+}
 .myskills>h2{
     text-decoration: underline 4px solid whitesmoke;
     font-weight: bolder;
@@ -73,8 +75,13 @@ nav{
     background-color: black;
     color:white;
     border-radius: 8px;
+<<<<<<< HEAD
    margin: 2%;
     height:fit-content;
+=======
+    
+    height:fit-content
+>>>>>>> 41f0235ecbf994e1e5fe7d3cbbbaa6d3026b92c1
    
 }
 
@@ -140,7 +147,11 @@ nav{
     font-size: xx-large;
 }
 .myskills{
+<<<<<<< HEAD
     height:fit-content;
+=======
+    
+>>>>>>> 41f0235ecbf994e1e5fe7d3cbbbaa6d3026b92c1
     background-color: black;
     color: white;
     padding: 20px;
@@ -158,6 +169,7 @@ nav{
     font-size: x-large;
 
 }
+<<<<<<< HEAD
 .button{
     text-decoration: underline;
     color: aliceblue;
@@ -168,6 +180,17 @@ nav{
 .button:hover{
     text-decoration: none;
     color:aliceblue;
+=======
+.myskills>a{
+    text-decoration: underline;
+    color: aliceblue;
+    padding-top:20px;
+}
+.myskills>a:hover{
+    text-decoration: none;
+    color:aliceblue;
+   
+>>>>>>> 41f0235ecbf994e1e5fe7d3cbbbaa6d3026b92c1
     background:linear-gradient(to right bottom, rgba(255, 255, 255, 0.5),rgba(255,255,255,0.6));
     padding: 12px;
     border-radius: 5px;
