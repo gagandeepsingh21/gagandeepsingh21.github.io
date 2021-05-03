@@ -467,17 +467,17 @@ body{
         margin-right: 15px;
         font-size:26px;
         position: absolute;
-        top:330px;
+        top:335px;
         text-align: justify;
         padding-top: 35px;
     } 
 
 
     .first_img{
-        margin-top: 17px;
+      
         width: 80%;
         position: absolute;
-        top:20%;
+        top:17%;
         left: 5%;
         margin-left: 15px;
     }
