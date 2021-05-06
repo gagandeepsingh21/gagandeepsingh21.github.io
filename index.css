@@ -266,17 +266,17 @@ nav{
      font-size: 45px;
  }
   .fa-envelope:hover{
-     color: blueviolet;
+     color: rgb(226, 55, 43);
      
  }
 .fa-twitter-square:hover{
-    color: blueviolet;
+    color: rgb(43, 144, 226);
 }
  .fa-facebook:hover{
-     color: blueviolet;
+     color: rgba(43, 107, 226, 0.63);
  }
   .fa-instagram:hover{
-     color: blueviolet;
+     color: rgba(241, 70, 213, 0.692);
  }
 nav .Openmenu{
     font-size: 2rem;
