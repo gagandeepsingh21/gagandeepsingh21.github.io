@@ -503,7 +503,7 @@ body{
 .workpiece_img{ 
     height:200px;
     margin-left:10%;
-    width:300px
+    width: 33.3%;
     Object-fit: cover;
     border-radius: 7px;
     margin-bottom: 20px;
