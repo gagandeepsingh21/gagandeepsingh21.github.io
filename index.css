@@ -13,7 +13,30 @@ nav{
    
   
 }
-
+.faderight{
+    animation: 1.5s fadeInRight;
+    animation-iteration-count: 1;
+}
+ @keyframes fadeInRight {
+            0% {
+               opacity: 0;
+               transform: translateX(50px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateX(0);
+            }
+         }
+         
+.fade{
+    transition: 0.7s ease-in;
+}
+.fadeOut{
+    opacity:0;
+}
+.fadeIn{
+    opacity:1;
+}
 
 .mynav_ul{
     list-style: none;
@@ -66,7 +89,7 @@ nav{
 .myskills>h2{
     text-decoration: underline 4px solid whitesmoke;
     font-weight: bolder;
-    font-style: italic;
+  
     
 }
 
@@ -187,7 +210,6 @@ nav{
     text-align: center;
     padding-top:10px;
     text-decoration: underline;
-    font-style: italic;
     font-size: x-large;
 
 }
@@ -314,6 +336,7 @@ nav .mynav_ul .closeMenu {
      .first_img{
         margin-top: 17px;
         width: 70%;
+        border-radius: 5px;
         position: absolute;
         object-fit:contain;
         margin-left: 0;
@@ -387,8 +410,8 @@ body{
         width: 100%;
     }
      .sectitle_intro{
-        right:10%;
-        left: 13%;
+       
+        left: 20%;
         margin-right: 15px;
         font-size:x-large;
         position: absolute;
@@ -399,11 +422,12 @@ body{
     } 
      .first_img{
         margin-top: 17px;
-        width: 10% ;
+        width: 50% ;
+        border-radius: 5px;
         position: absolute;
         object-fit: contain;
         top:20%;
-        left: 5%;
+        left: 20%;
         margin-left: 15px;
     }
        .bio>p{
@@ -412,6 +436,7 @@ body{
     padding-bottom: 10px;
  
 }
+
 .bio{
     height:400px;
    background-color: white;
@@ -465,11 +490,11 @@ body{
     }
     .sectitle_intro{
         right:10%;
-        left: 8%;
+        left: 10%;
         margin-right: 15px;
         font-size:26px;
         position: absolute;
-        top:335px;
+        top:300px;
         text-align: justify;
         padding-top: 35px;
     } 
@@ -479,6 +504,7 @@ body{
       
         width: 80%;
         position: absolute;
+        border-radius: 5px;
         top:17%;
         left: 5%;
         margin-left: 15px;
