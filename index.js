@@ -55,3 +55,10 @@ const observer = new IntersectionObserver(observerCallback, obseverOption)
 const Fade = document.querySelectorAll('.fade');
 Fade.forEach(a => {observer.observe(a)})
 
+
+//scroll
+ var scroll = document.querySelector('.scrollTop');
+window.addEventListener('scroll', function(){
+   
+    scroll.classList.toggle("active" , window.scrollY > 300)
+})

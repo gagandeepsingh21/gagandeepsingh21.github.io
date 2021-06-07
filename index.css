@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav{
@@ -300,6 +301,36 @@ nav{
   .fa-instagram:hover{
      color: rgba(241, 70, 213, 0.692);
  }
+
+.fa-arrow-up{
+     font-size: 35px;
+     color:blue;
+     border: 3px solid blue ;
+     background-color: white;
+     padding: 4px;
+     border-radius: 50%;
+   
+     
+ } 
+ .scrollTop{
+     position: fixed;
+     bottom:10px;
+     right:10px;
+     border-radius: 50%;
+     z-index: 100000;
+     cursor: pointer;
+     visibility: hidden;
+     opacity: 0;
+     transition: 0.7s;
+    
+     
+ }
+ .scrollTop.active{
+     opacity:1;
+     visibility: visible;
+     
+
+ }
 nav .Openmenu{
     font-size: 2rem;
     margin: 5px;
@@ -492,9 +523,9 @@ body{
         margin-right: 15px;
         font-size:26px;
         position: absolute;
-        top:300px;
+        top:310px;
         text-align: justify;
-        padding-top: 35px;
+        padding-top: 45px;
     } 
 
 
