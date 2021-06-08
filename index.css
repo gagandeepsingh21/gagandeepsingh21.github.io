@@ -302,16 +302,18 @@ nav{
      color: rgba(241, 70, 213, 0.692);
  }
 
-.fa-arrow-up{
+.fa-arrow-circle-up{
      font-size: 35px;
-     color:blue;
-     border: 3px solid blue ;
+     color:gray;
+     border: 3px solid gray ;
      background-color: white;
      padding: 4px;
      border-radius: 50%;
    
      
  } 
+
+ 
  .scrollTop{
      position: fixed;
      bottom:10px;
@@ -322,6 +324,7 @@ nav{
      visibility: hidden;
      opacity: 0;
      transition: 0.7s;
+     text-decoration: none;
     
      
  }
